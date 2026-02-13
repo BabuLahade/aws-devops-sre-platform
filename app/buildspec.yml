@@ -5,7 +5,7 @@ phases:
     commands:
       - echo "Build started"
       - mkdir output
-      - cp index.html output/
+      - cp app/index.html output/
 
 artifacts:
   files:
