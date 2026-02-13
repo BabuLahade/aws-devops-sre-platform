@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build started"
+      - mkdir output
+      - cp index.html output/
+
+artifacts:
+  files:
+    - output/**
