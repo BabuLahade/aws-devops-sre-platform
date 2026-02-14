@@ -1,0 +1,122 @@
+phase 0
+why aws
+why one region
+why multi az
+why this project
+whats benefit of this project
+what the use of this project
+why terraform 
+why s3 and dynamodb
+why terraform state lock file using s3 and dynamodb
+how you access aws
+which website and app used
+what is the purpose behind it
+
+
+phase 1 
+why create vpc
+why public subnet private subnet
+why internet gateway
+why route tables
+cidr block ranges why those 10.0.0.0/16  10.0.1.0/24 10.0.2.0/24
+why public and private route tables
+why we enable dns support and dns hostnames
+why igw use vpc id
+why in terrfaorm tags are used and $for input in curly braces
+why this map_public_ip_on_launch = true → makes it public
+availability zone of subnets
+why route table association with publicRt and private rt
+why nat gateway need elastic ip
+what is elastic ip
+
+“Why didn’t you add NAT in Phase-1?
+why bastion host why multi az
+why public and private sg
+why private rt
+why nat is depends on aws igw
+why elastic ip used to connect nat ip
+why need of private sg and also public sg
+why private sg on inbound rules in first (for alb and eks sg)
+why we created alb first
+why nlb>>alb intentional
+why alb and nlb
+why cloudfront
+why waf
+
+why target groups needed
+why we create new sg for alb
+how to create cdn what is use and how we are goig to added it
+waf
+web acl
+how what why wherer all thing realted to waf
+checked link cdn.net like this 504 error 
+why sg is not there in nlb
+why waf
+
+phase 3
+why we use template
+whyy private sg used
+why no public ip
+why amazon linux 2
+why user data for nginx/apache  simple htmlpage
+why only alb talk to them ec2
+
+phsae 4 (database layer)
+why all
+why rds,dynamodb,redis,s3
+App (EC2)
+ ├─ RDS → transactions
+ ├─ Redis → cache
+ ├─ DynamoDB → sessions/state
+ └─ S3 → files/logs
+why create s3 first
+usage of all 
+
+
+phase 5 async and serverleass
+why lambda
+why sqs
+why s3 events and policies
+why async and what 
+use cases in our projects and actual use cases
+
+
+phase 6 
+CloudWatch (baseline)
+├── Metrics
+├── Logs
+├── Alarms
+├── Dashboards
+│
+Prometheus + Grafana (infra metrics)
+│
+ELK (log analytics – design level)
+why cloudwatch
+in cloudwatch metrics find is hard there lot of instances in which some are terminated and running how
+why we use node exporter why not k8s
+why we dongt fully deploy elk
+EC2 / Lambda logs
+ ↓
+Logstash / Fluent Bit
+ ↓
+Elasticsearch / OpenSearch
+ ↓
+Kibana
+why AWS-native alternative
+
+Amazon OpenSearch Service
+
+CloudWatch Logs subscription
+
+why we are not using elk
+CloudWatch Metrics   → system health
+CloudWatch Logs      → debugging
+CloudWatch Alarms    → alerting
+CloudWatch Dashboards→ visibility
+SNS                  → notifications
+
+
+phase 7 cicd github+jenkins  or github+awscodepipeline+awscodebuild+asg rolling updates
+
+
+why we give iam roles to the services forexample rds,codebuild,lambda,s3

@@ -1,0 +1,19 @@
+in backend terraform dont use variables
+spelling mistakes
+
+
+phase 1
+creating vpc,ig,route table,cidr block,subnets,
+“In Phase-1 I focused only on network foundation.
+I created a VPC with public and private subnets, attached an internet gateway, and configured routing properly.
+I intentionally didn’t add compute or Kubernetes yet, because networking needs to be stable first.”
+
+phase-1: add VPC with public and private subnets
+
+
+“Why didn’t you add NAT in Phase-1?”
+
+You answer:
+
+“I wanted to validate basic routing and isolation first.
+NAT adds cost and complexity, so I added it only after the base network was stable.”
