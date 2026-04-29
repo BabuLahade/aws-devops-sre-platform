@@ -12,3 +12,5 @@ terraform init
 terraform validate
 terraform plan -var-file=envs/dev.tfvars
 terraform apply -var-file=envs/dev.tfvars
+D
+# Phase 2 Started
